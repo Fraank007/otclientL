@@ -1,0 +1,11 @@
+Module
+  name: Updater
+  description: Start the updater
+  author: vyctor17
+  website: http://62.72.11.195/
+  sandboxed: true
+  autoload: true
+  autoload-priority: 1000
+  scripts: [ Update ]
+  @onLoad: init()
+  @onUnload: terminate()
